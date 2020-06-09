@@ -24,7 +24,6 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
-      DeviceOrientation.portraitDown,
     ]);
     return Scaffold(
       appBar: AppBar(
