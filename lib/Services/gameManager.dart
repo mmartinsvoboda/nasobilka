@@ -52,8 +52,11 @@ bool check(num answer) {
   if (answer == result) {
     //correct
     isCorrect = true;
-    streakCounter++;
-    if (answered == false) correctCounter++;
+
+    if (answered == false) {
+      correctCounter++;
+      streakCounter++;
+    }
     answered = true;
     return true;
   } else {
